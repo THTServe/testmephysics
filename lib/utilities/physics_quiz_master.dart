@@ -170,6 +170,7 @@ class PhysicsQuizMaster {
 
   //Here is the list of questions
   /// Topic 1 - Energy
+  /// //Todo
   List<PhysicsQ> _questionBank1 = [
     PhysicsQ(
         category: 'Energy',
@@ -234,6 +235,7 @@ class PhysicsQuizMaster {
         feedback: 'TBC'),
   ];
 
+//Todo
   /// Topic 2 - Forces
   List<PhysicsQ> _questionBank2 = [
     PhysicsQ(
@@ -300,6 +302,7 @@ class PhysicsQuizMaster {
         feedback: 'TBC'),
   ];
 
+//Todo
   /// Topic 3 - Forces and Motion
   List<PhysicsQ> _questionBank3 = [
     PhysicsQ(
@@ -441,6 +444,7 @@ class PhysicsQuizMaster {
             'The Amplitude of a wave is the measurement from a point of zero displacement to the point of maximum displacement.  e.g. zero to crest or zero to trough.'),
   ];
 
+//Todo
   /// Topic 5 - Electricity
   List<PhysicsQ> _questionBank5 = [
     PhysicsQ(
@@ -509,6 +513,7 @@ class PhysicsQuizMaster {
         feedback: 'TBC'),
   ];
 
+//Todo
   /// Topic 6 - Magnetism and Electromagnetism
   List<PhysicsQ> _questionBank6 = [
     PhysicsQ(
@@ -657,6 +662,7 @@ class PhysicsQuizMaster {
             'When a substance changes state from a liquid to gas it will maintain its mass.  Reversing the process will take it back to its original form.  This is known as conservation of mass.'),
   ];
 
+//Todo
   /// Topic 8 - Atomic structure
   List<PhysicsQ> _questionBank8 = [
     PhysicsQ(
@@ -723,62 +729,79 @@ class PhysicsQuizMaster {
         feedback: 'TBC'),
   ];
 
+//Todo
   /// Topic 9 - Space Physics
   List<PhysicsQ> _questionBank9 = [
     PhysicsQ(
         category: 'Space Physics',
         number: 1,
-        question: 'Space Physics - 1',
+        question: 'Pluto is the outtermost planet of our solar system.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'While Pluto is the outtermost body of the solar system it is actaully a dwarf planet.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 2,
-        question: 'Space Physics - 2',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'A comet is an object that orbits the Sun.  It is made from rocky materials, dust and ice.  As it gets closer to the sun some of the ice starts to vapourise giving the comet a tail of gas.',
+        answer: true,
+        feedback:
+            'Comets are made from dust and ice and some rocky materials.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 3,
-        question: 'Space Physics - 3',
+        question:
+            'The main process going on inside the Sun is a nuclear reaction known as "Fission".',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'The Nuclear fusion process happens in the Sun.  This is when hydrogen nuclei combine to form helium nuclei.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 4,
-        question: 'Space Physics - 4',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'A Natural Satelite is an object such as the moons that orbit around most of the planets int he solar system',
+        answer: true,
+        feedback:
+            'Earths Moon is a Natural satelite but the international space station is man made so not natural.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 5,
-        question: 'Space Physics - 5',
+        question:
+            'The first stage of our Sun\'s development was something known as a protostar (proto - meaning first or earliest)',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'The first stage of a stars developement is known as a Nebula.  This is a gigantic cloud of dust and gas in space that can slowly come together to form protostars and then stars and planets.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 6,
-        question: 'Space Physics - 6',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'A body in a stable circular orbit around the earth moves at a constant speed but its velocity is constantly changing.',
+        answer: true,
+        feedback:
+            'Velociy is a vector and so has a speed and direction.  As the body travels around the object its direction will change causing a change in velocity.  A change in velocity results in an accelleration that counteracts the gravitational acceleration to keep the body in a stable orbit.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 7,
-        question: 'Space Physics - 7',
+        question:
+            'A man made satellite in a polar orbit around the Earth will take longer that than a man made satellite in a geostationary orbit.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'A geostationary orbit takes 24 hours to complete e.g. the same the earth takes to complete 1 day.  This will make the satellite appear to be in the same part of the sky when viewed from the ground.  Polar orbits are typically much lower so much quicker.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 8,
-        question: 'Space Physics - 8',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'The closer a satellite is to the body it orbits, the faster it must go to maintain that orbit.',
+        answer: true,
+        feedback:
+            'Mercury (as the planet closest to the sun) orbits at around 47,000 m/s while Neptune (as the planet farthest from the sun) orbits at around 5000 m/s'),
     PhysicsQ(
         category: 'Space Physics',
         number: 9,
-        question: 'Space Physics - 9',
+        question: 'All Asteroids orbit in a belt between Mars and Jupiter.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'While most Asteroids in the Solar System are found between Mars and Jupiter, some orbit with Jupiter and others still may have more ecentric orbits leading them to cross earths orbit.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 10,
