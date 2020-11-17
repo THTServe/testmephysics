@@ -188,7 +188,7 @@ class InfoScreen extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(
                           horizontal: 8.0, vertical: 2.0),
                       child: Text(
-                        'Add Here',
+                        'Admin@tally-ho-tech.uk',
                         textScaleFactor: 1.2,
                       ),
                     ),
