@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:testmephysics/screens/policy_dialog.dart';
 import 'package:testmephysics/utilities/constants.dart';
 
 class InfoScreen extends StatelessWidget {
@@ -39,10 +40,12 @@ class InfoScreen extends StatelessWidget {
                       height: 12.0,
                     ),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        'Thanks For Trying our App',
-                        textScaleFactor: 2,
+                      padding: const EdgeInsets.all(8),
+                      child: Center(
+                        child: Text(
+                          'Thanks For Trying our App',
+                          textScaleFactor: 2,
+                        ),
                       ),
                     ),
                     Divider(
@@ -52,7 +55,7 @@ class InfoScreen extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
                         'This App tests you on the english GCSE keyStage 4 - Physics syllabus by asking a series of questions in a true/false format.  There is a sample set of 90 questions in this free version.',
-                        textScaleFactor: 1.2,
+                        textScaleFactor: 1.3,
                       ),
                     ),
                     SizedBox(
@@ -71,7 +74,7 @@ class InfoScreen extends StatelessWidget {
                           horizontal: 8.0, vertical: 2.0),
                       child: Text(
                           'By default the test will run with 45 questions spread across all categories.  However, you may select just the categories you are interested in.',
-                          textScaleFactor: 1.2),
+                          textScaleFactor: 1.3),
                     ),
                     SizedBox(
                       height: 8.0,
@@ -89,47 +92,86 @@ class InfoScreen extends StatelessWidget {
                           horizontal: 8.0, vertical: 2.0),
                       child: Text(
                         'Use the plus and minus buttons on the selection page to change how may questions per category you wish the test to contain',
-                        textScaleFactor: 1.2,
+                        textScaleFactor: 1.3,
                       ),
                     ),
                     Divider(
                       thickness: 2.0,
                     ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 8.0, vertical: 4.0),
-                      child: Text(
-                        'Privacy Policy',
-                        textScaleFactor: 1.5,
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 8.0, vertical: 2.0),
-                      child: Text(
-                        'This App does not collect or send any data externally.  '
-                        'All data is used solely by the app and not shared in any way.',
-                        textScaleFactor: 1.2,
-                      ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8.0, vertical: 4.0),
+                          child: Text(
+                            'Privacy Policy',
+                            textScaleFactor: 1.5,
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            height: 40,
+                            decoration: BoxDecoration(
+                                color: kRedDark,
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(20.0))),
+                            child: FlatButton(
+                              onPressed: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => PolicyDialog(
+                                            mdFileName: 'privacy.md',
+                                          ))),
+                              child: Text('Tap to Read',
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    color: kTextWht,
+                                  )),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                     Divider(
                       thickness: 2.0,
                     ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 8.0, vertical: 4.0),
-                      child: Text(
-                        'Terms Of Use',
-                        textScaleFactor: 1.5,
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 8.0, vertical: 2.0),
-                      child: Text(
-                        'Add Here',
-                        textScaleFactor: 1.2,
-                      ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8.0, vertical: 4.0),
+                          child: Text(
+                            'Terms Of Use',
+                            textScaleFactor: 1.5,
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            height: 40,
+                            decoration: BoxDecoration(
+                                color: kRedDark,
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(20.0))),
+                            child: FlatButton(
+                              onPressed: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => PolicyDialog(
+                                            mdFileName: 'terms.md',
+                                          ))),
+                              child: Text('Tap to Read',
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    color: kTextWht,
+                                  )),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                     Divider(
                       thickness: 2.0,
