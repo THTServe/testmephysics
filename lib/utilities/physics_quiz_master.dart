@@ -662,45 +662,56 @@ class PhysicsQuizMaster {
             'When a substance changes state from a liquid to gas it will maintain its mass.  Reversing the process will take it back to its original form.  This is known as conservation of mass.'),
   ];
 
-//Todo
   /// Topic 8 - Atomic structure
   List<PhysicsQ> _questionBank8 = [
     PhysicsQ(
         category: 'Atomic Structure',
         number: 1,
-        question: 'Atomic Structure - 1',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'The word Atom comes from ancient greek \'Atomos\' meaning uncuttable. They believed matter (like say metal) was made up of millions of tiny indivisible pieces of the same metal.',
+        answer: true,
+        feedback:
+            'Democritus (an ancient greek philosopher) was one of the two founders of the \'Atomist\' theory and held that there are small indivisible bodies from which everything else is composed, and that these move about in an infinite void.'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 2,
-        question: 'Atomic Structure - 2',
+        question:
+            'Ernest Rutherford discovered that the plum pudding model of Atoms had been correct in his experiments with Alpha particles and gold leaf in 1905.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'The model was incorrect. Positively charged Alpha particles did not all pass completely though the gold leaf as expected. His conclusions were that the Atom is mostly empty space, has a concentration of +ve charge, the +ve charge volume is tiny.'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 3,
-        question: 'Atomic Structure - 3',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'The total number of protons and neutrons in an Atom is called the mass number. The number of protons is called the atomic number.',
+        answer: true,
+        feedback:
+            'Mass number and atomic number are two important pieces of information about an atom.'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 4,
-        question: 'Atomic Structure - 4',
+        question:
+            'The Mass number and Atomic number of any element will be constant for that element. ',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'The Atomic number defines the element and will not change for that element but the mass number may change with different numbers of neutrons. Elements with different numbers of protons are known as Isotopes.'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 5,
-        question: 'Atomic Structure - 5',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'If a nucleus has too few neutrons, it will emit a ‘package’ of two protons and two neutrons called an alpha particle.',
+        answer: true,
+        feedback:
+            'Alpha Radiation is the emission of two protons and two neutrons by a decaying element nucleus.  This may also be known as a Helium-4 nucleus.'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 6,
-        question: 'Atomic Structure - 6',
+        question:
+            'Beta Radiation can be stopped by skin on a thin piece of paper.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'Alpha Radiation can be stopped by skin on a thin piece of paper.  Beta - 3mm Aluminium foil, Gamma - Around 10cm of lead / steel / concrete.'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 7,
@@ -712,24 +723,29 @@ class PhysicsQuizMaster {
     PhysicsQ(
         category: 'Atomic Structure',
         number: 8,
-        question: 'Atomic Structure - 8',
+        question:
+            'Atoms must always have the same amount of electrons as protons so they remain in balance.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'Atoms can loose or gain electrons. When they do they are known as Ions. If they gain electrons they become negatively charged ions and a loss will make them positively charged ions'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 9,
-        question: 'Atomic Structure - 9',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'The control rods in a Nuclear Fission reactor are used to balance the heat generated and the removal of heat (by the cooling medium).',
+        answer: true,
+        feedback:
+            'As the control rods are raised the reaction gets to a point where it is sustainable (known as critical).  The heat generated is removed and used to drive turbines.'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 10,
-        question: 'Atomic Structure - 10',
+        question:
+            'Nuclear Fission happens in a reactor when a Gamma ray from a Uranium-235 atom hits another Uranium-235 nucleus turning it into Uranium-236.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'U-236 is made by the absorption of a neutron into U-235. It is unstable and emits another 2 to 3 neutrons as it decays.  If one of these neutrons hits another U-235 nucleus, again 2-3 neutrons will result.  This is known as a chain reaction.'),
   ];
 
-//Todo
   /// Topic 9 - Space Physics
   List<PhysicsQ> _questionBank9 = [
     PhysicsQ(
