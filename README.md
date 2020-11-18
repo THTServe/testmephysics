@@ -1,6 +1,10 @@
 # testmephysics
 
+<<<<<<< HEAD
 A new Flutter project.
+=======
+A new Flutter application.
+>>>>>>> a3ea8254e7481b6bf90ea8cb63138595765d778a
 
 ## Getting Started
 
