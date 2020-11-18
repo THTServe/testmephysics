@@ -735,10 +735,10 @@ class PhysicsQuizMaster {
     PhysicsQ(
         category: 'Space Physics',
         number: 1,
-        question: 'Pluto is the outtermost planet of our solar system.',
+        question: 'Pluto is the outermost planet of our solar system.',
         answer: false,
         feedback:
-            'While Pluto is the outtermost body of the solar system it is actaully a dwarf planet.'),
+            'While Pluto is the outermost body of the solar system it is actually a dwarf planet.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 2,
@@ -759,10 +759,10 @@ class PhysicsQuizMaster {
         category: 'Space Physics',
         number: 4,
         question:
-            'A Natural Satelite is an object such as the moons that orbit around most of the planets int he solar system',
+            'A Natural Satellite is an object such as the moons that orbit around most of the planets in the solar system',
         answer: true,
         feedback:
-            'Earths Moon is a Natural satelite but the international space station is man made so not natural.'),
+            'Earth\'s Moon is a Natural Satellite but the international space station is man made so not a natural Satellite.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 5,
@@ -770,7 +770,7 @@ class PhysicsQuizMaster {
             'The first stage of our Sun\'s development was something known as a protostar (proto - meaning first or earliest)',
         answer: false,
         feedback:
-            'The first stage of a stars developement is known as a Nebula.  This is a gigantic cloud of dust and gas in space that can slowly come together to form protostars and then stars and planets.'),
+            'The first stage of a stars development is known as a Nebula.  This is a gigantic cloud of dust and gas in space that can slowly come together to form protostars and then stars and planets.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 6,
@@ -778,15 +778,15 @@ class PhysicsQuizMaster {
             'A body in a stable circular orbit around the earth moves at a constant speed but its velocity is constantly changing.',
         answer: true,
         feedback:
-            'Velociy is a vector and so has a speed and direction.  As the body travels around the object its direction will change causing a change in velocity.  A change in velocity results in an accelleration that counteracts the gravitational acceleration to keep the body in a stable orbit.'),
+            'Velocity is a vector and so has a speed and direction.  As the body travelling in a circle will change direction and so velocity, as it moves.  Changes in velocity result in an acceleration that balances out the gravitational pull.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 7,
         question:
-            'A man made satellite in a polar orbit around the Earth will take longer that than a man made satellite in a geostationary orbit.',
+            'A man made satellite in a polar orbit around the Earth will take longer to orbit than a man made satellite in a geostationary orbit.',
         answer: false,
         feedback:
-            'A geostationary orbit takes 24 hours to complete e.g. the same the earth takes to complete 1 day.  This will make the satellite appear to be in the same part of the sky when viewed from the ground.  Polar orbits are typically much lower so much quicker.'),
+            'A geostationary orbit is much higher than a Polar orbit.  It takes 24 hours to complete e.g. the same the earth takes to complete 1 day.  Polar orbits are typically much lower so much quicker.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 8,
@@ -801,7 +801,7 @@ class PhysicsQuizMaster {
         question: 'All Asteroids orbit in a belt between Mars and Jupiter.',
         answer: false,
         feedback:
-            'While most Asteroids in the Solar System are found between Mars and Jupiter, some orbit with Jupiter and others still may have more ecentric orbits leading them to cross earths orbit.'),
+            'While most Asteroids in the Solar System are found between Mars and Jupiter, some orbit with Jupiter and others still may have more eccentric orbits leading them to cross earths orbit.'),
     PhysicsQ(
         category: 'Space Physics',
         number: 10,

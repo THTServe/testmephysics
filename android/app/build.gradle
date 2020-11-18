@@ -25,10 +25,10 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
-<<<<<<< HEAD
+
 android {
     compileSdkVersion 29
-=======
+
 
 def keystoreProperties = new Properties()
 def keystorePropertiesFile = rootProject.file('key.properties')
@@ -39,9 +39,7 @@ if (keystorePropertiesFile.exists()) {
 
 
 
-android {
-    compileSdkVersion 28
->>>>>>> a3ea8254e7481b6bf90ea8cb63138595765d778a
+
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -53,21 +51,14 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-<<<<<<< HEAD
-        applicationId "com.example.testmephysics"
         minSdkVersion 16
         targetSdkVersion 29
-=======
         applicationId "uk.tallyhotech.testmephysics"
-        minSdkVersion 16
-        targetSdkVersion 28
->>>>>>> a3ea8254e7481b6bf90ea8cb63138595765d778a
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
 
-<<<<<<< HEAD
-=======
+
     signingConfigs {
         release {
             keyAlias keystoreProperties['keyAlias']
@@ -78,18 +69,13 @@ android {
     }
 
 
-
->>>>>>> a3ea8254e7481b6bf90ea8cb63138595765d778a
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
-<<<<<<< HEAD
-            signingConfig signingConfigs.debug
-=======
 //            signingConfig signingConfigs.debug
             signingConfig signingConfigs.release
->>>>>>> a3ea8254e7481b6bf90ea8cb63138595765d778a
+
         }
     }
 }

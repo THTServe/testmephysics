@@ -39,9 +39,8 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
-<<<<<<< HEAD
-=======
+
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
->>>>>>> a3ea8254e7481b6bf90ea8cb63138595765d778a
+
