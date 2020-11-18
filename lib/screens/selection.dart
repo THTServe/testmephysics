@@ -63,7 +63,7 @@ class _SelectionScreenState extends State<SelectionScreen> {
               }),
           DrawerItem(
               isSelected: _localCatMapList['for'],
-              icon: forcesIcon,
+              icon: Icons.height,
               text: 'Forces',
               onTap: () {
                 setState(() {
@@ -81,7 +81,7 @@ class _SelectionScreenState extends State<SelectionScreen> {
               }),
           DrawerItem(
               isSelected: _localCatMapList['wav'],
-              icon: Icons.wifi,
+              icon: Icons.waves,
               text: 'Waves',
               onTap: () {
                 setState(() {
@@ -108,7 +108,7 @@ class _SelectionScreenState extends State<SelectionScreen> {
               }),
           DrawerItem(
               isSelected: _localCatMapList['som'],
-              icon: matterIcon,
+              icon: Icons.grain,
               text: 'Particle Model of Matter',
               onTap: () {
                 setState(() {
@@ -117,7 +117,7 @@ class _SelectionScreenState extends State<SelectionScreen> {
               }),
           DrawerItem(
               isSelected: _localCatMapList['atm'],
-              icon: atomIcon,
+              icon: Icons.workspaces_filled,
               text: 'Atomic Structure',
               onTap: () {
                 setState(() {
@@ -126,7 +126,7 @@ class _SelectionScreenState extends State<SelectionScreen> {
               }),
           DrawerItem(
               isSelected: _localCatMapList['spy'],
-              icon: spaceIcon,
+              icon: Icons.auto_awesome,
               text: 'Space Physics',
               onTap: () {
                 setState(() {
