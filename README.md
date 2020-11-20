@@ -1,20 +1,16 @@
 # testmephysics
 
-<<<<<<< HEAD
-A new Flutter project.
-=======
-A new Flutter application.
->>>>>>> a3ea8254e7481b6bf90ea8cb63138595765d778a
+
+A Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project runs a quiz in the form of true false questions.  It is aimed at students studying UK GCSE Physics but may be relevant to any student studying physics in years 9-11.
 
-A few resources to get you started if this is your first Flutter project:
+There are 9 topics covering Energy, Forces, Forces and Motion, Waves, Electricity, Maganetisum, Particle Modle of Matter, Atomic Structure and Space.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The user is able to choose between 1 or 9 subjects to be testted upon and can have 1 to 10 questions in each subject.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+As such each quiz can be bweteen 1 and 100 questions.
+
+At the end of the quiz the user gets a report how they did.
