@@ -444,73 +444,88 @@ class PhysicsQuizMaster {
             'The Amplitude of a wave is the measurement from a point of zero displacement to the point of maximum displacement.  e.g. zero to crest or zero to trough.'),
   ];
 
-//Todo
   /// Topic 5 - Electricity
   List<PhysicsQ> _questionBank5 = [
     PhysicsQ(
         category: 'Electricity',
         number: 1,
-        question: 'Electricity - 1',
+        question:
+            'An LED is a common component of Electrical Circuits.  LED stands for Low Emission Diode.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'An LED is a common component of Electrical Circuits but LED stands for Light Emitting Diode.'),
     PhysicsQ(
         category: 'Electricity',
         number: 2,
-        question: 'Electricity - 2',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'A Thermistor is a type of resister that can change its resistance with temperature changes.',
+        answer: true,
+        feedback:
+            'A Thermistor\'s resistance can change with temperature so that typically it will be higher Resistance at low temperatures and lower Resistance at higher temperatures.'),
     PhysicsQ(
         category: 'Electricity',
         number: 3,
         question:
-            'The force between 2 charged objects gets stronger as they move apart.',
-        answer: false,
+            'A Diode is a semiconductor component that allows current to flow in one direction and not in another.',
+        answer: true,
         feedback:
-            'The amount the objects can interact with each other reduces as they move apart so the force on them also gets weaker.'),
+            'Diodes do allow current to pass more easily in one direction than another.  Typically they will need around 0.7 V potential difference applied however before they start to conduct / switch on.'),
     PhysicsQ(
         category: 'Electricity',
         number: 4,
         question:
-            'As Air is an insulator, electric current cannot pass through it.',
+            'Charge is a property of a body which experiences a force in an electric field. Charge is measured in milliAmps (mA).',
         answer: false,
         feedback:
-            'A Strong electric field around a charged object can Ionise the air making it much easier for current to pass through.'),
+            'Charge is measured in coulombs (C).  The amount of charge at a point in the circuit can be calculated using the equation: charge(Q)[Coulombs] = current(I)[Amps] x time(t) [seconds] '),
     PhysicsQ(
         category: 'Electricity',
         number: 5,
-        question: 'Electricity - 5',
+        question:
+            'Current is a measure of the amount of electron flow in a circuit / component of a circuit. A device called an Ammeter is placed in parallel with the component to measure current passing through it.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'An Ammeter needs to detect and measure all the current passing through a component.  To do this it needs to be placed in SERIES with the component it is measuring.'),
     PhysicsQ(
         category: 'Electricity',
         number: 6,
-        question: 'Electricity - 6',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'Voltage is a measure of the difference in charge between 2 points in a circuit.  e.g. across a component.',
+        answer: true,
+        feedback:
+            'As current moves through a component, some charge will be converted to energy in order to do work or lost as heat. If 1 coulomb of charge, is converted to 1 joule of energy, then a Potential Difference of 1 volt will be seen across it.'),
     PhysicsQ(
         category: 'Electricity',
         number: 7,
-        question: 'Electricity - 7',
+        question:
+            'Resistance of a piece of wire is inversely proportional to its length.  This means that its resistance decreases the longer the wire gets.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'The longer a piece of wire is, the higher the resistance will be. Resistance is directly proportional to length of the wire.'),
     PhysicsQ(
         category: 'Electricity',
         number: 8,
-        question: 'Electricity - 8',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'When resistors are connected in parallel the overall resistance is reduced.',
+        answer: true,
+        feedback:
+            'Resistors connected in parallel allow the current to follow multiple paths.  This presents less resistance to the electron flow than would be the case if they were in series.'),
     PhysicsQ(
         category: 'Electricity',
         number: 9,
-        question: 'Electricity - 9',
+        question:
+            'As electrons move through conductors they vibrate causing more resistance.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'As electrons move through wires, they collide with the ions in the wire which causes the ions to vibrate more. This increased vibration of the ions, increases the temperature and so resistance of the wire.'),
     PhysicsQ(
         category: 'Electricity',
         number: 10,
-        question: 'Electricity - 10',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'Electricity is typically transmitted from place to place at a low current but High Voltage.',
+        answer: true,
+        feedback:
+            'Using Power = Current² x Resistance it can be seen that for a given power the current will have a large effect on the resistance. For this reason it is more efficient to transmit with High Voltage and Low Current.'),
   ];
 
 //Todo
