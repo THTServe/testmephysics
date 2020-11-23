@@ -170,50 +170,61 @@ class PhysicsQuizMaster {
 
   //Here is the list of questions
   /// Topic 1 - Energy
-  /// //Todo
   List<PhysicsQ> _questionBank1 = [
     PhysicsQ(
         category: 'Energy',
         number: 1,
-        question: 'Energy - 1',
-        answer: false,
-        feedback: 'TBC'),
+        question: 'Kinetic Energy is the energy stored by a moving object.',
+        answer: true,
+        feedback:
+            'To bring a moving object to rest (e.g. a bus) energy is transferred to heat from friction caused by the application of the brakes.  Stored Kinetic energy is dissipated in the form of heat.'),
     PhysicsQ(
         category: 'Energy',
         number: 2,
-        question: 'Energy - 2',
+        question:
+            'Today it is normal for Energy to be created, transferred, stored dissipated and destroyed in the use of modern electronic gadgets.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'It is not possible to create or destroy energy forms.  It is only possible to transfer, store or dissipate energy.'),
     PhysicsQ(
         category: 'Energy',
         number: 3,
-        question: 'Energy - 3',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'The amount of kinetic energy in a moving object can be calculated using the equation: 1/2 x mass x speed²',
+        answer: true,
+        feedback:
+            'An phone weighing 164g, dropped from 2m has an impact speed of 6m/s.  It therefore has a kinetic energy gain of... 0.5 x 0.164 x 6 = 3.21 Joules.'),
     PhysicsQ(
         category: 'Energy',
         number: 4,
-        question: 'Energy - 4',
+        question:
+            'A person pulls a heavy box along the floor and measures that is takes 15Newtons(N) to move it 3m.  Work done then is 15/3 = 5N',
         answer: false,
-        feedback: 'TBC'),
+        feedback: 'Work done in Joules = Force x Distance or 15 x 3 = 45 J.'),
     PhysicsQ(
         category: 'Energy',
         number: 5,
-        question: 'Energy - 5',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            '2 Electric cars have a race.  Car 1 weighs 21kN moves 0.4km in 11.8 Seconds.  Car 2 also weights 21kN moves 0.4km in 23.6 Seconds.  Car 1 must be twice as powerful as Car 2. ',
+        answer: true,
+        feedback:
+            'Using Power(W) = Work(J) / Time(s): Car 1: Power = (21000x400) / 11.8 = 712 kWatts.  Car 2: Power = (21000x400) / 23.6 = 356 kWatts.'),
     PhysicsQ(
         category: 'Energy',
         number: 6,
-        question: 'Energy - 6',
+        question:
+            'A Electrical Transformer is one of the most efficient devices known and can frequently have efficiency measurements 1.2 to 1.3.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'It is not possible to have an efficiency greater than 1. This would mean that more energy is being transferred than is being supplied. This breaks the law of conservation of energy.'),
     PhysicsQ(
         category: 'Energy',
         number: 7,
-        question: 'Energy - 7',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'Double Glazing traps air between two pains of glass uses the properties of thermal conductivity to provide a warmer environment than single glazing.',
+        answer: true,
+        feedback:
+            'The Thermal Conductivity of Air is 0.02 W/m/°C whereas that of glass is 0.17 W/m/°C.  e.g. Air is about a 10 times better insulator than glass on its own. '),
     PhysicsQ(
         category: 'Energy',
         number: 8,
@@ -224,15 +235,18 @@ class PhysicsQuizMaster {
     PhysicsQ(
         category: 'Energy',
         number: 9,
-        question: 'Energy - 9',
+        question:
+            'The specific heat capacity of an object is the amount of energy is stores in order to release as useful work.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'The specific heat capacity of a substance is the amount of energy needed to raise the temperature of 1 kg of the substance by 1°C.'),
     PhysicsQ(
         category: 'Energy',
         number: 10,
-        question: 'Energy - 10',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'Wind, Solar and Nuclear Energy are the main types of renewable energy sources used today.',
+        feedback:
+            'Wind and Solar are renewable energy sources but Nuclear power relies on Uranium that has to be dug out of the ground and is a NON renewable resource.'),
   ];
 
 //Todo

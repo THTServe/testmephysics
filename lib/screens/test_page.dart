@@ -55,16 +55,16 @@ class _TestPageState extends State<TestPage> {
   //List to hold a view of chosen categories that gets passed to the choice
   // screen and reset on return based on choices
   Map<String, dynamic> masterCatMapList = {
-    'eng': false,
-    'for': false,
-    'fom': false,
-    'wav': false,
+    'eng': true,
+    'for': true,
+    'fom': true,
+    'wav': true,
     'elc': true,
-    'mag': false,
-    'som': false,
-    'atm': false,
-    'spy': false,
-    'qpc': 10
+    'mag': true,
+    'som': true,
+    'atm': true,
+    'spy': true,
+    'qpc': 5
   };
 
   @override
