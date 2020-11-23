@@ -221,7 +221,7 @@ class PhysicsQuizMaster {
         category: 'Energy',
         number: 7,
         question:
-            'Double Glazing traps air between two pains of glass uses the properties of thermal conductivity to provide a warmer environment than single glazing.',
+            'Double Glazing trapping air between two pains of glass uses the properties of thermal conductivity to provide a warmer environment than single glazing.',
         answer: true,
         feedback:
             'The Thermal Conductivity of Air is 0.02 W/m/°C whereas that of glass is 0.17 W/m/°C.  e.g. Air is about a 10 times better insulator than glass on its own. '),
@@ -245,11 +245,11 @@ class PhysicsQuizMaster {
         number: 10,
         question:
             'Wind, Solar and Nuclear Energy are the main types of renewable energy sources used today.',
+        answer: false,
         feedback:
             'Wind and Solar are renewable energy sources but Nuclear power relies on Uranium that has to be dug out of the ground and is a NON renewable resource.'),
   ];
 
-//Todo
   /// Topic 2 - Forces
   List<PhysicsQ> _questionBank2 = [
     PhysicsQ(
@@ -263,57 +263,75 @@ class PhysicsQuizMaster {
     PhysicsQ(
         category: 'Forces',
         number: 2,
-        question: 'Forces - 2',
+        question:
+            'A free Body Diagram shows what happens when Kinetic Energy is transferred to motion in air as something falls.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'A free Body Diagram is a simple drawing of an object/system showing the forces acting on it. The forces are usually shown as arrows pointing away from the centre of a box or dot.'),
     PhysicsQ(
         category: 'Forces',
         number: 3,
-        question: 'Forces - 3',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'When a contact force such as friction or tension acts upon two bodies, they will both experience the same size force but in opposite directions.',
+        answer: true,
+        feedback:
+            'When a contact force acts between two objects, both objects do experience the same size force, but in opposite directions. This is also known as Newton\'s Third Law of Motion'),
     PhysicsQ(
         category: 'Forces',
         number: 4,
-        question: 'Forces - 4',
+        question:
+            'With Elastic deformation some of the deformation is still in place once the deforming force is removed.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'With Elastic deformation the deformation is removed once the deforming force is removed.'),
     PhysicsQ(
         category: 'Forces',
         number: 5,
-        question: 'Forces - 5',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'The extension of an elastic object, such as a spring, is described by Hooke\'s law.',
+        answer: true,
+        feedback:
+            'Extension is when an object length increases, and compression when it decreases length. The extension of an elastic object, such as a spring, is described by Hooke\'s law and is Force = spring constant X extension.'),
     PhysicsQ(
         category: 'Forces',
         number: 6,
-        question: 'Forces - 6',
+        question:
+            'Work is done when a spring is extended or compressed. Elastic kinetic energy is stored in the spring, providing that it was not deformed.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'Work is done when a spring is extended or compressed. But it is Elastic Potential energy that is stored in the spring. Providing that it was not deformed the Work it can do will be equal to the stored energy.'),
     PhysicsQ(
         category: 'Forces',
         number: 7,
-        question: 'Forces - 7',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'A force on an object may cause it to turn about a point. A MOMENT is the turning effect of a force and they act about a point., clockwise or anticlockwise. The point could be any point on the object, but a pivot/fulcrum is usually chosen.',
+        answer: true,
+        feedback:
+            'A Moment is the turning effect of a force on an object that acts about a point in a clockwise or anticlockwise direction. The point could actually be any point on the object, but normally a pivot point or fulcrum is chosen.'),
     PhysicsQ(
         category: 'Forces',
         number: 8,
-        question: 'Forces - 8',
+        question:
+            'A lever comprises a handle, pivot point and effort to move an object.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'A lever is made up of a pivot point, an effort and a load. However levers are effective as they use force multiplication (large moments) to make the effort used exert a larger force on the load.'),
     PhysicsQ(
         category: 'Forces',
         number: 9,
-        question: 'Forces - 9',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'Pressure is the amount of force exerted on an object per unit area of the object.  The pressure in a liquid or gas acts "normal" to the surface.',
+        answer: true,
+        feedback:
+            'Liquids and gases are fluids and so the pressure in then acts normal to a surface (at right angles (90°) to it). To calculate the pressure at the surface of a fluid use the equation: Pressure = Force / Area.'),
     PhysicsQ(
         category: 'Forces',
         number: 10,
-        question: 'Forces - 10',
+        question:
+            'A ‘system’ is something that is affected by external forces. When this happens it is called the principle of conservation of momentum.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'A ‘closed system’ is not affected by external forces. This means that total system momentum before an event inside the system must equal total Momentum after the event.  e.g momentum is conserved.'),
   ];
 
 //Todo
