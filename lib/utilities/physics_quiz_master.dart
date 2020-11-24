@@ -323,7 +323,7 @@ class PhysicsQuizMaster {
             'Pressure is the amount of force exerted on an object per unit area of the object.  The pressure in a liquid or gas acts "normal" to the surface.',
         answer: true,
         feedback:
-            'Liquids and gases are fluids and so the pressure in then acts normal to a surface (at right angles (90°) to it). To calculate the pressure at the surface of a fluid use the equation: Pressure = Force / Area.'),
+            'Liquids and gases are fluids and so the pressure in them acts normal to a surface (at right angles (90°) to it). To calculate the pressure at the surface of a fluid use the equation: Pressure = Force / Area.'),
     PhysicsQ(
         category: 'Forces',
         number: 10,
@@ -359,7 +359,7 @@ class PhysicsQuizMaster {
             'According to Newton\'s First Law of motion, an object remains in the same state of motion unless a resultant force acts on it.',
         answer: true,
         feedback:
-            'An object remains in the same state of motion unless a resultant force acts on it.  also, if the resultant force on an object is zero, this means that is was stationary (ans so remains stationary, or moving at some velocity (and will remain so).'),
+            'An object remains in the same state of motion unless a resultant force acts on it. If the resultant force on an object is zero, then it was either stationary (and will remain so) or moving at some velocity (and will remain so).'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 4,
@@ -518,7 +518,7 @@ class PhysicsQuizMaster {
             'A Diode is a semiconductor component that allows current to flow in one direction and not in another.',
         answer: true,
         feedback:
-            'Diodes do allow current to pass more easily in one direction than another.  Typically they will need around 0.7 V potential difference applied however before they start to conduct / switch on.'),
+            'Diodes do allow current to pass more easily in one direction than another.  Typically they will need around 0.7 V potential difference applied before they start to conduct / switch on.'),
     PhysicsQ(
         category: 'Electricity',
         number: 4,
@@ -610,12 +610,12 @@ class PhysicsQuizMaster {
             'A DC current when connected to a loudspeaker will generate a sound proportional to the frequency of the current.',
         answer: false,
         feedback:
-            'A loudspeaker does generate a sound by converting current signals into motion of the speaker cone and so sound waves that can be detected by our ears.  However this will need an AC current in order to move the speaker backwards and forwards.'),
+            'A loudspeaker generates a sound by converting current signals into motion of the speaker cone. This creates sound waves that can be detected by our ears.  However, an AC current is needed to move the speaker backwards AND forwards.'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 5,
         question:
-            'A Transformer comprises an iron core around which two coils of differing lengths are wound.  Shorter = less turns.',
+            'A Transformer comprises an iron core around which two coils of differing lengths are wound.  Shorter = less turns.  Longer = more turns.',
         answer: true,
         feedback:
             'The transformer core has a primary and secondary coil.  The primary induces as current in the secondary via the Iron core.  The voltage input can be increased (stepped up) or decreased (stepped down).'),
@@ -642,7 +642,7 @@ class PhysicsQuizMaster {
             'A magnetic field generated in a wire can be increased by moving the wire further away.',
         answer: false,
         feedback:
-            'The electromagnetic field around a current, flowing through a wire is increased when the current in increased or the magnetic field is made stronger by moving closer to its source.'),
+            'The electromagnetic field around a current, flowing through a wire is increased when the current is increased or the magnetic field is made stronger by moving closer to its source.'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 9,
@@ -669,14 +669,14 @@ class PhysicsQuizMaster {
             'When a Sealed syringe of air is compressed by the Piston pushing in, Its pressure will decrease as the volume decreases.',
         answer: false,
         feedback:
-            'As the Piston makes the space in the syringe smaller, the volume of air decreases and the pressure will increase.'),
+            'As the Piston makes the space in the syringe smaller, the volume of air decreases so the pressure will increase.'),
     PhysicsQ(
         category: 'Particle Model of Matter',
         number: 2,
         question: 'The Density of matter is generally highest in a Solid.',
         answer: true,
         feedback:
-            'In the Particle Model, particles are arranged closely together in a solid.'),
+            'In the Particle Model, particles are arranged more closely together in a solid.'),
     PhysicsQ(
         category: 'Particle Model of Matter',
         number: 3,
@@ -697,7 +697,7 @@ class PhysicsQuizMaster {
         category: 'Particle Model of Matter',
         number: 5,
         question:
-            'The relationship between water depth and pressure if linear.',
+            'The relationship between water depth and pressure is linear.',
         answer: false,
         feedback:
             'Pressure at 10m is approximately twice that at the surface and at 20m 3 times that of the surface.'),
@@ -708,7 +708,7 @@ class PhysicsQuizMaster {
             'The Specific Heat of Vaporisation is described as the amount of Energy needed to change 1kg of a substance from a Liquid to a vapour/gas with a rise of 1 degree C.',
         answer: false,
         feedback:
-            'Specific Heat of Vaporisation is the amount of Energy needed to change 1kg of a substance from a Liquid to a vapour/gas with no change in ite Temperature.'),
+            'Specific Heat of Vaporisation is the amount of Energy needed to change 1kg of a substance from a Liquid to a vapour/gas with NO change in ite Temperature.'),
     PhysicsQ(
         category: 'Particle Model of Matter',
         number: 7,
@@ -760,7 +760,7 @@ class PhysicsQuizMaster {
             'Ernest Rutherford discovered that the plum pudding model of Atoms had been correct in his experiments with Alpha particles and gold leaf in 1905.',
         answer: false,
         feedback:
-            'The model was incorrect. Positively charged Alpha particles did not all pass completely though the gold leaf as expected. His conclusions were that the Atom is mostly empty space, has a concentration of +ve charge, the +ve charge volume is tiny.'),
+            'The model was incorrect. Positively charged Alpha particles didn\'t all pass though the gold leaf as expected. His conclusion was that the Atom is mostly empty space but has a tiny concentration of +ve charge in the nucleus.'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 3,
@@ -776,7 +776,7 @@ class PhysicsQuizMaster {
             'The Mass number and Atomic number of any element will be constant for that element. ',
         answer: false,
         feedback:
-            'The Atomic number defines the element and will not change for that element but the mass number may change with different numbers of neutrons. Elements with different numbers of protons are known as Isotopes.'),
+            'The Atomic number defines the element and will not change for that element but the mass number may change with different numbers of neutrons. Elements with different numbers of neutrons are known as Isotopes.'),
     PhysicsQ(
         category: 'Atomic Structure',
         number: 5,
