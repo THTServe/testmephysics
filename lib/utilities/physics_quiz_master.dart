@@ -598,27 +598,35 @@ class PhysicsQuizMaster {
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 5,
-        question: 'Magnetism and Electromagnetism - 5',
+        question:
+            'A Transformer comprises an iron core around which two coils if differing lengths/thicknesses are wound.',
         answer: true,
-        feedback: 'TBC'),
+        feedback:
+            'The transformer core has a primary and secondary coil.  The primary induces as current in the secondary via the Iron core.  The voltage input can be increased (stepped up) or decreased (stepped down).'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 6,
-        question: 'Magnetism and Electromagnetism - 6',
+        question:
+            'The equation to calculate the input to output voltage of a Transformer is given by: Number of turns x input voltage.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'The equation to calculate the input to output voltage of a Transformer is given by: Vₚ/Vₛ = number of turnsₚ/number of turnsₛ'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 7,
-        question: 'Magnetism and Electromagnetism - 7',
+        question:
+            'When a coil of wire is moved in a magnetic field, it will have a voltage induced within it.',
         answer: true,
-        feedback: 'TBC'),
+        feedback:
+            'The induced voltage also produces an induced current if the conductor is connected as a circuit. This is known as the generator effect and in turn creates a magnetic field opposing the original movement.'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 8,
-        question: 'Magnetism and Electromagnetism - 8',
+        question:
+            'A magnetic field generated in a wire can be increased by moving the wire further away.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'The electromagnetic field around a current, flowing through a wire is increased when the current in increased or the magnetic field is made stronger by moving closer to its source.'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 9,
@@ -629,9 +637,11 @@ class PhysicsQuizMaster {
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 10,
-        question: 'Magnetism and Electromagnetism - 10',
+        question:
+            'It is better to use an electromagnet rather than a permanent magnet for lifting metals a recycling centre.',
         answer: true,
-        feedback: 'TBC'),
+        feedback:
+            'The electromagnet has the advantage that it can be switched on and off or the current varied meaning it can be change its properties to lift or drop things of differing weights. '),
   ];
 
   /// Topic 7 - Particle Model of matter
