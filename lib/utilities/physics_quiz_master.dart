@@ -566,32 +566,40 @@ class PhysicsQuizMaster {
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 1,
-        question: 'Magnetism and Electromagnetism - 1',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'Two magnets will either attract or repel each other such that like poles (S-S or N-N) repel, unlike poles (N-S or S-N) attract.',
+        answer: true,
+        feedback:
+            'Magnets have differing poles and like poles (S-S or N-N) repel, unlike poles (N-S or S-N) attract. These attract/repel forces are non-contact which means that the magnets affect each other without touching.'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 2,
-        question: 'Magnetism and Electromagnetism - 2',
+        question:
+            'A permanent magnet can attract and repel another permanent magnet or magnetic material.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'A permanent magnet can attract and repel another permanent magnet as that magnet will also have a magnetic field.  It can only attract but not repel a magnetic material.'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 3,
-        question: 'Magnetism and Electromagnetism - 3',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'A wire carrying a current creates a magnetic field. If this field interacts with another magnetic field, it will cause a force that pushes the wire.',
+        answer: true,
+        feedback:
+            'A wire carrying a current generates a magnetic field that interacting with another magnetic field, will cause a force that pushes at right angles to the other fields. This is called the motor effect.'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 4,
-        question: 'Magnetism and Electromagnetism - 4',
+        question:
+            'A DC current when connected to a loudspeaker will generate a sound proportional to the frequency of the current.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'A loudspeaker does generate a sound by converting current signals into motion of the speaker cone and so sound waves that can be detected by our ears.  However this will need an AC current in order to move the speaker backwards and forwards.'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 5,
         question: 'Magnetism and Electromagnetism - 5',
-        answer: false,
+        answer: true,
         feedback: 'TBC'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
@@ -603,7 +611,7 @@ class PhysicsQuizMaster {
         category: 'Magnetism and Electromagnetism',
         number: 7,
         question: 'Magnetism and Electromagnetism - 7',
-        answer: false,
+        answer: true,
         feedback: 'TBC'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
@@ -622,7 +630,7 @@ class PhysicsQuizMaster {
         category: 'Magnetism and Electromagnetism',
         number: 10,
         question: 'Magnetism and Electromagnetism - 10',
-        answer: false,
+        answer: true,
         feedback: 'TBC'),
   ];
 
