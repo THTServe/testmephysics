@@ -304,7 +304,7 @@ class PhysicsQuizMaster {
         category: 'Forces',
         number: 7,
         question:
-            'A force on an object may cause it to turn about a point. A MOMENT is the turning effect of a force and they act about a point., clockwise or anticlockwise. The point could be any point on the object, but a pivot/fulcrum is usually chosen.',
+            'A force on an object may cause it to turn about a point. A MOMENT is the turning effect of a force around a point, clockwise or anticlockwise. The point could be anywhere on the object, but usually a pivot or fulcrum.',
         answer: true,
         feedback:
             'A Moment is the turning effect of a force on an object that acts about a point in a clockwise or anticlockwise direction. The point could actually be any point on the object, but normally a pivot point or fulcrum is chosen.'),
@@ -334,71 +334,88 @@ class PhysicsQuizMaster {
             'A ‘closed system’ is not affected by external forces. This means that total system momentum before an event inside the system must equal total Momentum after the event.  e.g momentum is conserved.'),
   ];
 
-//Todo
   /// Topic 3 - Forces and Motion
   List<PhysicsQ> _questionBank3 = [
     PhysicsQ(
         category: 'Forces and Motion',
         number: 1,
-        question: 'Forces and Motion - 1',
+        question:
+            'The Terminal velocity of a person or animal falling towards the earth is that which the impact would kill the person or animal.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'Terminal velocity of ANY object is reached when the force due to acceleration of gravity is balanced out with the friction of the fluid through which the object is moving.'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 2,
-        question: 'Forces and Motion - 2',
+        question:
+            'A velocity time graph shows how an object falls and is usually a straight line.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'A velocity time graph shows how an object falls and has three phases. 1: Straight line showing initial acceleration. 2: A curve showing reduced acceleration over time as friction grows. 3: Straight line when terminal velocity is reached.'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 3,
-        question: 'Forces and Motion - 3',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'According to Newton\'s First Law of motion, an object remains in the same state of motion unless a resultant force acts on it.',
+        answer: true,
+        feedback:
+            'An object remains in the same state of motion unless a resultant force acts on it.  also, if the resultant force on an object is zero, this means that is was stationary (ans so remains stationary, or moving at some velocity (and will remain so).'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 4,
-        question: 'Forces and Motion - 4',
+        question:
+            'An example of non-uniform motion is a car travelling in a straight line down the motorway at a constant 70mph.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'Non-uniform motion will have changes in speed, direction, or both.  A car travelling in a straight line down the motorway at a constant 70mph is an example of uniform motion.'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 5,
-        question: 'Forces and Motion - 5',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'Newton\'s Second Law of motion can be described by this equation: resultant force = mass × acceleration (F = m x a). ',
+        answer: true,
+        feedback:
+            'F = ma (or rearranged to a = F/m) shows that the acceleration of an object is proportional to Force acting on it (more force = faster acceleration) and inversely proportional to mass (more mass = lower acceleration).'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 6,
         question:
-            'Newtons third laws states that whenever two objects interact, they exert equal and opposite forces on each other.',
+            'Newtons third law states that whenever two objects interact, they exert equal and opposite forces on each other.',
         answer: true,
         feedback:
             'Also widely known as \'every action has an equal and opposite reaction\'.'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 7,
-        question: 'Forces and Motion - 7',
+        question:
+            'Stopping Distance is how long it takes a vehicle to stop after accelerating to 60mph in the shortest amount of time.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'Stopping Distance comprises braking distance (the distance taken to stop when brakes are applied) + reaction distance (the distance taken to sense the need to stop suddenly and apply the brakes).'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 8,
-        question: 'Forces and Motion - 8',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'Reaction time (and so reaction distance) varies from person to person.  Things that affect human reaction times are tiredness, age, alcohol, distractions.',
+        answer: true,
+        feedback:
+            'The time it takes for a human driver to react can be affected by many things e.g. tiredness, age, alcohol, distractions, drugs, weather, lighting.  Self driving cars will help to reduce some of these.'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 9,
-        question: 'Forces and Motion - 9',
+        question:
+            'At 60mph the thinking distance of a driver is about the same as the braking distance.',
         answer: false,
-        feedback: 'TBC'),
+        feedback:
+            'At 60mph the average thinking distance of a driver will be about 20m however the braking distance will be around 50m, e.g. approximately 2¹/₂ times more.'),
     PhysicsQ(
         category: 'Forces and Motion',
         number: 10,
-        question: 'Forces and Motion - 10',
-        answer: false,
-        feedback: 'TBC'),
+        question:
+            'The tendency of an object to continue in its current state (e.g. either at rest or in uniform motion) is called inertia.',
+        answer: true,
+        feedback:
+            'Inertia is the tendency of an object to continue in its current state (in uniform motion or at rest) unless it is acted upon by a resultant force.'),
   ];
 
   /// Topic 4 - Waves
@@ -560,7 +577,6 @@ class PhysicsQuizMaster {
             'Using Power = Current² x Resistance it can be seen that for a given power the current will have a large effect on the resistance. For this reason it is more efficient to transmit with High Voltage and Low Current.'),
   ];
 
-//Todo
   /// Topic 6 - Magnetism and Electromagnetism
   List<PhysicsQ> _questionBank6 = [
     PhysicsQ(
@@ -578,7 +594,7 @@ class PhysicsQuizMaster {
             'A permanent magnet can attract and repel another permanent magnet or magnetic material.',
         answer: false,
         feedback:
-            'A permanent magnet can attract and repel another permanent magnet as that magnet will also have a magnetic field.  It can only attract but not repel a magnetic material.'),
+            'A permanent magnet can attract and repel another permanent magnet as that magnet will also have a magnetic field.  It can attract but not repel a magnetic material.'),
     PhysicsQ(
         category: 'Magnetism and Electromagnetism',
         number: 3,
@@ -599,7 +615,7 @@ class PhysicsQuizMaster {
         category: 'Magnetism and Electromagnetism',
         number: 5,
         question:
-            'A Transformer comprises an iron core around which two coils if differing lengths/thicknesses are wound.',
+            'A Transformer comprises an iron core around which two coils of differing lengths are wound.  Shorter = less turns.',
         answer: true,
         feedback:
             'The transformer core has a primary and secondary coil.  The primary induces as current in the secondary via the Iron core.  The voltage input can be increased (stepped up) or decreased (stepped down).'),
@@ -638,10 +654,10 @@ class PhysicsQuizMaster {
         category: 'Magnetism and Electromagnetism',
         number: 10,
         question:
-            'It is better to use an electromagnet rather than a permanent magnet for lifting metals a recycling centre.',
+            'It is better to use an electromagnet rather than a permanent magnet for lifting metals at a recycling centre.',
         answer: true,
         feedback:
-            'The electromagnet has the advantage that it can be switched on and off or the current varied meaning it can be change its properties to lift or drop things of differing weights. '),
+            'The electromagnet has the advantage that it can be switched on and off or the current varied meaning it can change its properties to lift or drop things of differing weights. '),
   ];
 
   /// Topic 7 - Particle Model of matter
